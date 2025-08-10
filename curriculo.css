@@ -1,0 +1,83 @@
+body {
+    background-color: #ffffff;
+}
+
+.imagem {
+    display: flex;
+    width: 150px;
+    height: auto;
+    margin: auto;
+    border-style: solid;
+    border-radius: 180px;
+}
+
+h1 {
+    font-family: arial;
+    color: white;
+    background-color: #170468;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    margin: 0;
+}
+
+.informacoes {
+    font-family: arial;
+    font-size: 16px;
+    background-color: #07119c;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.objetivo {
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0;
+}
+
+.formacao {
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.qualificacoes {
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+}
+
+.menu a {
+    background-color: #dfb80b;
+    padding: 16px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: white;
+}
+
+.idiomas {
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
