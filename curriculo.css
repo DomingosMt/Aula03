@@ -1,83 +1,46 @@
 body {
-    background-color: #ffffff;
+    max-width: 900px;              
+    margin: 90px auto;            
+    padding: 10px 5px;            
+    border: 2px solid #222;        
+    border-radius: 16px;           
+    background: #f9f9f9;           
+    box-shadow: 0 4px 16px #0002;  
+    text-align: center;
+    display: block;
 }
 
-.imagem {
-    display: flex;
+img {
     width: 150px;
-    height: auto;
-    margin: auto;
-    border-style: solid;
-    border-radius: 180px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
 }
 
 h1 {
-    font-family: arial;
-    color: white;
-    background-color: #170468;
-    display: flex;
-    justify-content: center;
-    padding: 14px;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.informacoes {
-    font-family: arial;
-    font-size: 16px;
-    background-color: #07119c;
-    color: #ffffff;
-    padding: 10px;
-    margin: 0;
-    text-align: center;
-}
-
-.objetivo {
-    font-family: arial;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    padding: 0px;
-    margin: 0;
-}
-
-.formacao {
-    font-family: arial;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    margin: 0;
-}
-
-.qualificacoes {
-    font-family: arial;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    margin: 0;
-}
-
-.menu {
-    text-align: center;
-}
-
-.menu li {
+.contatos li {
     list-style: none;
     display: inline-block;
     padding: 0px;
 }
 
-.menu a {
-    background-color: #dfb80b;
-    padding: 16px;
-    padding-top: 10px;
+.contatos a {
+    background-color: #000000;
+    padding: 8px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.menu a:hover {
-    background-color: #333;
-    color: white;
+.contatos a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
 }
 
-.idiomas {
-    font-family: arial;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    margin: 0;
+li {
+    list-style: none;
 }
